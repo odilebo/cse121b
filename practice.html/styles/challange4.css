@@ -1,0 +1,48 @@
+img {
+    width: 34%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1:hover {
+    
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+
+
+footer {
+    text-align: center;
+}
+
+p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    color: black;
+}
+
+.para1 {
+    color: white;
+
+}
+
+.para2 {
+    color: white;
+
+}
+
+.para4 {
+    color: white;
+
+}
+
+body {
+
+    background-color:pink;
+}
