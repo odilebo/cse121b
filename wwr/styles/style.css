@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sarabun:wght@200&display=swap');
+
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -13,6 +17,7 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
     
 
 }
@@ -41,6 +46,9 @@ main section {
 body {
     background-color: #94bbdb; 
     color: black;
+    font-family: Sarabun, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -57,6 +65,11 @@ nav a:hover{
     background-color: #f8f4c9; 
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 
 .book:hover, .join:hover{
@@ -72,19 +85,29 @@ nav a:hover{
 .msg{
     background-color:  #94e5f0; 
     color: black;
+    line-height: 1.5em;
+    padding: 35px;
+
 }
 
 .msg h2{
     color: black;
+    font-family: Bebas Neue, 'Times New Roman', Times;
+    
+
 }
 
 .msg p{
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color:  #94e5f0; 
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p{
@@ -107,8 +130,16 @@ footer a:hover{
     color: black;
 }
 
+footer .social {
+
+    padding-top: 15px;
+}
+
 .home-title{
     color: black;
+    font-family: Bebas Neue, sans-serif, Arial;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -116,9 +147,14 @@ h4{
     color: black;
 }
 
+h2 {
+    margin: 0;
+}
+
 .icon{
     width: 80px;
     background-color: black;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -126,3 +162,24 @@ h4{
     background-color:pink;
 }
 
+#logo_link {
+
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.mountains {
+    margin: 200px 0;
+}
