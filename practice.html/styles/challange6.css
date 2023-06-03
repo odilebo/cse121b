@@ -1,0 +1,29 @@
+#image {
+    position: relative;
+    text-align: center;
+    color: black;
+    background-color: grey;
+
+    
+}
+
+#image .img{
+    float: left;
+    width: 50%;
+    background-color: grey;
+
+}
+
+
+/*.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text2{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}*/
