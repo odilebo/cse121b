@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sarabun:wght@200&display=swap');
 
+
 header {
    background-color: #f8f4c9;
    color: black;
@@ -8,9 +9,18 @@ header {
    
 }
 
+#hero-msg h1{
+    color: white;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    
+}
+
+.river {
+    width: 100%;
     
 }
 
@@ -19,20 +29,22 @@ header {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 50px;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
     
 }
 
-/*<td class="primary">[#94e5f0]</td>
-            <td class="secondary">[#f1d0d6]</td>
-            <td class="accent1">[#94bbdb]</td>
-            <td class="accent2">[#f8f4c9]</td> */
 
 nav a {
     text-align: center;
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 35px;
     
@@ -40,7 +52,7 @@ nav a {
 }
 
 .logo{
-    
+    width: 100px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -64,6 +76,14 @@ main section {
     grid-column: 1/11;
     grid-row: 4/9;
     background-color: #94e5f0; 
+    color: black;
+}
+
+#background-rivers {
+    height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
+    background-color: white; 
     color: black;
 }
    
@@ -111,7 +131,7 @@ nav a:hover{
 }
 
 .msg h2{
-    color: black;
+    color: Black;
     font-family: Bebas Neue, 'Times New Roman', Times;
     
 
@@ -128,6 +148,16 @@ footer {
     color: black;
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rivers-bottom {
+    background-color:  #94e5f0; 
+    color: white;
+    padding: 25px 50px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -183,18 +213,24 @@ h2 {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -300px; 
+    margin-top: 0px; 
 }
 
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
-    z-index: -1;
+    
 }
  
 
 #hero-img{
     width:100%;
+    background-color:white;
+}
+
+#top-img{
+    width:100%;
+    height: 100%;
     background-color:white;
 }
 
@@ -247,6 +283,15 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
@@ -290,6 +335,10 @@ main section img {
     #hero-msg {
         margin-top: 0;
     }
+    .column {
+        width: 100%;
+      }
+
     #hero-msg h4 {
         display: none;
     }
