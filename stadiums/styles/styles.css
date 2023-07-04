@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sarabun:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sarabun:wght@200&family=Sarala:wght@700&display=swap');
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #A43312;
+    grid-template-rows: 150px auto;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.logo {
+    grid-column: 2;
+    width: 150px;
+    height: 150px;
+
+    
+      
+}
+
+.home {
+    grid-column: 3;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.blog {
+    grid-column: 4;
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+.contactus {
+    grid-column: 5;
+    width: 100%;
+    height: 100%;
+
+    
+
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opening-message {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+#opening .home-opening-message {
+    padding-bottom: -200%;
+}
+
+.home-grid {
+    padding-top: -800%;
+}
+
+h1 {
+    text-align: center;
+    color:black;
+    font-family: 'Sarala', sans-serif;
+    padding-top: 10%;
+    padding-bottom: 0%;
+    font-size: xx-large;
+}
+
+h4 {
+    text-align: center;
+    color:black;
+    font-family: 'Sarala', sans-serif;
+    
+    padding-bottom: 10%;
+    font-size: large;
+}
+
+h2 {
+    font-family: 'Sarala', sans-serif ;
+}
+
+.hero-msg {
+    padding-top: 20%;
+    padding-bottom: -30%;
+}
+
+
+
+
+
+
+main p {
+   
+    width: 50%;
+    margin-left: auto;
+    font-family: Sarabun ,Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+}
+
+main img {
+    
+    width: 50%;
+    
+}
+
+main h2 {
+    color: black;
+    text-align: center;
+    
+    
+}
+
+.maracana-block, .allianz-stadium-block, .azteca-stadium-block, .camp-nou-stadium-block, .san-siro-stadium-block, .wembley-block {
+   
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 20% 70% 10%;
+    column-gap: 10%;
+    padding-bottom: 10%;
+} 
+
+.maracana-block h2 {
+    padding-top: 10%;
+}
+
+.maracana-block  {
+    padding-bottom: 5%;
+}
+
+.stantiago-stadium-block {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 10% 50% 10%;
+    column-gap: 10%;
+    padding-bottom: 10%;
+}
+
+.contactus {
+    display: grid;
+    grid-template-rows: 50% 10%;
+}
+
+.contactus img {
+    grid-row: 1;
+    width: 100%;
+}
+
+.contactus p {
+    grid-row: 2;
+    width: 100%;
+    padding-top: 20%;
+    text-align: center;
+}
+
+.maracana-block img, .allianz-stadium-block img, .azteca-stadium-block img, .camp-nou-stadium-block img, .san-siro-stadium-block img, .wembley-block img , .stantiago-stadium-block img  {
+    grid-row: 2;
+    width: 100%;
+    
+    
+    
+}
+
+.maracana-block img {
+    padding-top: 10%;
+
+
+}
+
+.stantiago-stadium-block img {
+    width: 150%;
+    height: 100%;
+    padding-top: 8%;
+}
+
+.maracana-block p {
+    grid-row: 2;
+    width: 45%;
+    text-align: center;
+    padding-right: 200px;
+    padding-top: 5%;
+    
+}
+.maracana-block h2, .allianz-stadium-block h2, .azteca-stadium-block h2, .camp-nou-stadium-block h2, .san-siro-stadium-block h2, .wembley-block h2 , .stantiago-stadium-block h2 {
+    grid-row: 1;
+    grid-column: span 2;
+    text-align: center;
+
+
+} 
+.allianz-stadium-block p, .azteca-stadium-block p, .camp-nou-stadium-block p, .san-siro-stadium-block p, .wembley-block p {
+    grid-row: 2;
+    width: 45%;
+    text-align: center;
+    padding-right: 200px;
+    padding-top: 0px;
+}
+
+.first {
+    grid-row: 2;
+    width: 45%;
+    text-align: center;
+    padding-right: 20%;
+    padding-top: 20px;
+
+}
+.second {
+    grid-row: 3;
+    width: 100%;
+    text-align: center;
+   
+    padding-top: 50px;
+    grid-column: span 2; }
+
+footer p{
+    font-size: 1.2em;
+    justify-content: space-around;
+    align-items: center;
+    grid-row: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    
+
+}
+
+footer .social {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 0%;
+    background-color: #E7C24F;
+    
+    
+}
+
+footer .social-blog {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 0%;
+    background-color: #E7C24F;
+    
+    
+}
+
+.social .facebook, .social .twitter, .social .instagram {
+    width: 30%;
+    padding-left: 40%;
+    grid-row: 1;
+    
+    
+    
+    
+    
+}
+
+footer, .footer-text, footer .social {
+    
+    color: black;
+    padding: 25px ;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    row-gap: 10%;
+   
+
+    
+}
+
+.footer-text {
+    background-color: #396E94;
+    padding-bottom: 7%;
+    
+}
+
+
+
+
