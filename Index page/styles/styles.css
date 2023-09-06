@@ -1,0 +1,154 @@
+.main-header {
+	background-color: #77BE4E;
+	color: #FFFFFF;
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.main-nav a {
+	
+	text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+	
+	
+}
+
+li {
+	float: left;
+}
+  
+a {
+	display: block;
+	padding: 2px;
+	
+}
+
+.active {
+	background-color: black;
+}
+
+
+
+
+  
+/*.main-footer {
+	background-color: black;
+	color: #FFFFFF;
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+*/ 
+  
+.logo {
+	font-size: 22px;
+	font-weight: bold;
+}
+  
+.logo a {
+	text-decoration: none;
+	color: #fff; 
+}
+  
+  
+.main-nav ul {
+	list-style: none;
+}
+  
+.main-nav li {
+    display: inline;
+	margin-left: 24px;
+	font-size: 14px;
+	
+}
+   
+.main-nav a:hover {
+	color: #000000;
+}
+
+body {
+    width: 100%;
+}
+
+main img {
+    padding-top: 60px;
+}
+
+body .main {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #439ADA;
+}
+
+.center-container {
+  text-align: center;
+}
+
+.form-container {
+    background-color: #439ADA;
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+.form-container-reports {
+    background-color: #439ADA;
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+
+h1 {
+  margin-top: -5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"],
+select {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #000000;
+    color: #439ADA;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    button:hover {
+        background-color: #77BE4E;
+    }
+
+.headerindex {
+    padding-left: 35%;
+}
+
+header {
+    background-color: #77BE4E;
+}

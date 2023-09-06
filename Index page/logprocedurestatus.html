@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Log a procedure status</title>
+</head>
+
+<body>
+    <!-- Replace with header php to include header-->
+
+    <header class="main-header">
+        <a id="logo_link" href="home.html">
+            <img class="logo" src="img/nmch.png" alt="Nelson Mandela Hospital Logo">
+        </a>
+        <nav class="main-nav">
+            <ul class="nav-text">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="admitpatient.html">Admit patient</a></li>
+                <li><a href="Bookprocedure.html">Book procedure</a></li>
+                <li><a href="logprocedurestatus.html">Procedure status</a></li>
+                <li><a href="notes.html">Notetaking</a></li>
+                <li><a href="reports.html">Reports</a></li>
+                <li><a href="#">Coming Soon</a></li>
+                <li><a href="#l">Coming Soon</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main">
+    <div class="center-container">
+        <div class="form-container">
+
+            <img src="img/upside.png" />
+
+            <h1>Log procedure status</h1>
+            <form action="logprocedurestatus.php" method="post">
+                <!-- Replace with log procedure status php -->
+
+                <label for="procedure_id">Procedure ID <span class="required">*</span></label>
+                <input type="text" id="procedure_id" name="procedure" required>
+
+
+                <label for="hcpid">Healhcare professional ID <span class="required">*</span></label>
+                <input type="text" id="hcpid" name="healthcare" required>
+
+
+                <label for="procedure_date">Date <span class="required">*</span></label>
+                <input type="date" id="procedure_date" name="date" required>
+
+
+                <label for="procedure_status">Procedure status<span class="required">*</span></label>
+                <section class="procedurestatus-selection">
+                    <select id="procedurestatus-select">
+                        <option value="Approved">Approved</option>
+                        <option value="Denied">Denied</option>
+                        <option value="Cancelled">Cancelled</option>
+                        <option value="Delayed">Delayed</option>
+                        <option value="Ontime">Ontime</option>
+                        <option value="Started">Started</option>
+                        <option value="InProgress">In Progress</option>
+                        <option value="Completed">Completed</option>
+                    </select>
+                </section>             
+
+                <button id="submit-button">Submit</button>
+            </form>
+
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <!-- Replace with footer php to include footer -->
+    </footer>
+</body>
+</html>
+
+

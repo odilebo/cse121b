@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Book a procedure</title>
+</head>
+
+<body>
+    <!-- Replace with header php to include header-->
+
+    <header class="main-header">
+        <a id="logo_link" href="home.html">
+            <img class="logo" src="img/nmch.png" alt="Nelson Mandela Hospital Logo">
+        </a>
+        <nav class="main-nav">
+            <ul class="nav-text">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="admitpatient.html">Admit patient</a></li>
+                <li><a href="Bookprocedure.html">Book procedure</a></li>
+                <li><a href="logprocedurestatus.html">Procedure status</a></li>
+                <li><a href="notes.html">Notetaking</a></li>
+                <li><a href="reports.html">Reports</a></li>
+                <li><a href="#">Coming Soon</a></li>
+                <li><a href="#l">Coming Soon</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+    <div class="center-container">
+        <div class="form-container">
+
+            <img src="img/doc.png" />
+
+            <h1>Book a procedure</h1>
+            <form action="bookprocedure.php" method="post">
+
+                <!-- Replace with booking procedure php -->
+
+                <label for="hcpid">Healhcare professional ID <span class="required">*</span></label>
+                <input type="text" id="hcpid" name="healthcare" required>
+
+
+                <label for="casenumber">Case number <span class="required">*</span></label>
+                <input type="text" id="caseno" name="caseno" required>
+
+
+                <label for="department">Deparment<span class="required">*</span></label>
+                <section class="deparment-selection">
+                    <select id="department-select">
+                        <option value="Department1">Department 1</option>
+                        <option value="Department2">Department 2</option>
+                        <option value="Department3">Department 3</option>
+                        <option value="Department4">Department 4</option>
+                        <option value="Department5">Department 5</option>
+                        <option value="Department6">Department 6</option>
+                        <option value="Department7">Department 7</option>
+                        <option value="Department8">Department 8</option>
+                    </select>
+                </section>
+
+
+                <label for="patient_id">Patient ID <span class="required">*</span></label>
+                <input type="text" id="patient_id" name="patient" required>
+
+
+                <label for="theatre_no">Theatre selection<span class="required">*</span></label>
+                <section class="theatre-selection">
+                    <select id="theatre-select">
+                        <option value="Theatre 1">Theatre 1</option>
+                        <option value="Theatre 2">Theatre 2</option>
+                        <option value="Theatre 3">Theatre 3</option>
+                        <option value="Theatre 4">Theatre 4</option>
+                        <option value="Theatre 5">Theatre 5</option>
+                        <option value="Theatre 6">Theatre 6</option>
+                        <option value="Theatre 7">Theatre 7</option>
+                        <option value="Theatre 8">Theatre 8</option>
+                    </select>
+                </section>
+
+
+                <label for="procedure_date">Date <span class="required">*</span></label>
+                <input type="date" id="procedure_date" name="date" required>
+
+
+                <label for="procedureteam">Procedure Team<span class="required">*</span></label>
+                <section class="procedureteam-select">
+                    <select id="procedureteam-select">
+                        <option value="ProcedureTeam1">Procedure Team 1</option>
+                        <option value="ProcedureTeam2">Procedure Team 2</option>
+                        <option value="ProcedureTeam3">Procedure Team 3</option>
+                        <option value="ProcedureTeam4">Procedure Team 4</option>
+                        <option value="ProcedureTeam5">Procedure Team 5</option>
+                        <option value="ProcedureTeam6">Procedure Team 6</option>
+                        <option value="ProcedureTeam7">Procedure Team 7</option>
+                        <option value="ProcedureTeam8">Procedure Team 8</option>
+                    </select>
+                </section>
+
+
+                <label for="procedure_id">Procedure ID <span class="required">*</span></label>
+                <input type="text" id="procedure_id" name="procedure" required>
+
+                <button id="submit-button">Submit</button>
+            </form>
+
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <!-- Replace with footer php to include footer -->
+    </footer>
+</body>
+</html>
+
+

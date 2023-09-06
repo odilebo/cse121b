@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="seemastyles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <div class="center-container">
+    <div class="form-container">
+        <img src="img/boytooth.png" />
+      <h2>Login</h2>
+      <form action="login_process.php" method="post"> <!-- Replace with your login processing script -->
+        <label for="username">Username <span class="required">*</span></label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password <span class="required">*</span></label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
