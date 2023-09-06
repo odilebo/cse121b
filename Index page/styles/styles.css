@@ -141,9 +141,9 @@ button {
     font-size: 16px;
 }
 
-    button:hover {
-        background-color: #77BE4E;
-    }
+button:hover {
+    background-color: #77BE4E;
+}
 
 .headerindex {
     padding-left: 35%;
@@ -151,4 +151,22 @@ button {
 
 header {
     background-color: #77BE4E;
+}
+
+.main-footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logofooter {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer p, h2 {
+color: white;
 }
