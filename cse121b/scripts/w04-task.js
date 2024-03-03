@@ -18,8 +18,6 @@ let myProfile = {
     hobbies: [
         'Rugby',
         'Football',
-        'Coding',
-        'Movies',
         'Tiktok'
     ] ,
     
