@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 
 let fullName = 'Oarabile Dilebo';
-let currentYear = 2023;
+let currentYear = 2024;
 let profilePicture = "images/IMG_20220807_140511.jpg";
 const altText = `Profile image of ${fullName}`;
 
