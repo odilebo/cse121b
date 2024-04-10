@@ -1,0 +1,62 @@
+[
+    {
+      "title": "Kid A",
+      "artist": "Radiohead",
+      "year": "2000",
+      "genre": "Alternative"
+    },
+    {
+      "title": "The Marshall Mathers LP",
+      "artist": "Eminem",
+      "year": "2000",
+      "genre": "Hip Hop"
+    },
+    {
+      "title": "Yankee Hotel Foxtrot",
+      "artist": "Wilco",
+      "year": "2002",
+      "genre": "Alternative"
+    },
+    {
+      "title": "Is This It",
+      "artist": "The Strokes",
+      "year": "2001",
+      "genre": "Indie Rock"
+    },
+    {
+      "title": "Elephant",
+      "artist": "The White Stripes",
+      "year": "2003",
+      "genre": "Rock"
+    },
+    {
+      "title": "Back to Black",
+      "artist": "Amy Winehouse",
+      "year": "2006",
+      "genre": "Soul"
+    },
+    {
+      "title": "American Idiot",
+      "artist": "Green Day",
+      "year": "2004",
+      "genre": "Punk Rock"
+    },
+    {
+      "title": "Graduation",
+      "artist": "Kanye West",
+      "year": "2007",
+      "genre": "Hip Hop"
+    },
+    {
+      "title": "Hot Fuss",
+      "artist": "The Killers",
+      "year": "2004",
+      "genre": "Indie Rock"
+    },
+    {
+      "title": "In Rainbows",
+      "artist": "Radiohead",
+      "year": "2007",
+      "genre": "Alternative"
+    }
+  ]

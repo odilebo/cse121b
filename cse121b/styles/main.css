@@ -279,6 +279,46 @@ footer {
     margin: .5rem;
 }
 
+.filters {
+    margin-top: 10px;
+}
+
+.filters label {
+    font-weight: bold;
+}
+
+.filters select {
+    padding: 5px;
+}
+
+#albums {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.album {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+}
+
+.album h2 {
+    margin: 0;
+}
+
+.album p {
+    margin: 5px 0;
+}
+
+.album img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Media Queries */
 @media only screen and (min-width: 32.5em) {
     nav ul {
