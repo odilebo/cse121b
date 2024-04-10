@@ -8,19 +8,19 @@ let albumList = [];
 
 const displayAlbums = (albums) => {
     albums.forEach((album) => {
-        // Create <article> element
+        
         const article = document.createElement('article');
         
-        // Create <h2> element
+        
         const title = document.createElement('h2');
         title.textContent = album.title;
         
-        // Create <img> element
+        
         const image = document.createElement('img');
         image.src = album.imageUrl;
         image.alt = album.title;
         
-        // Create <p> elements for artist, genre, and year
+        
         const artist = document.createElement('p');
         artist.textContent = `Artist: ${album.artist}`;
         
@@ -30,14 +30,14 @@ const displayAlbums = (albums) => {
         const year = document.createElement('p');
         year.textContent = `Year: ${album.year}`;
         
-        // Append elements to <article>
+    
         article.appendChild(title);
         article.appendChild(image);
         article.appendChild(artist);
         article.appendChild(genre);
         article.appendChild(year);
         
-        // Append <article> to global albumsContainer variable
+    
         albumsContainer.appendChild(article);
     });
 };
@@ -50,7 +50,7 @@ const getAlbums = async () => {
     if (!response.ok) {
         throw new Error('Failed to fetch album data');
     }
-    albumList = await response.json(); // Assign to the global variable
+    albumList = await response.json(); 
     displayAlbums(albumList);
 };
 
@@ -62,16 +62,16 @@ getAlbums();
 /* reset Function */
 
 const reset = () => {
-    albumsContainer.innerHTML = ''; // Clearing all content inside albumsContainer
+    albumsContainer.innerHTML = '';
 };
 
 
 /* sortBy Function */
 
 const filterAlbums = (albums) => {
-    reset(); // Clear the output
+    reset(); 
     
-    const filter = document.getElementById('genre').value.toLowerCase(); // Get the value of the HTML element with ID 'genre' and convert to lowercase
+    const filter = document.getElementById('genre').value.toLowerCase(); 
     
     switch (filter) {
         case 'alternative':
