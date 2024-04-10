@@ -165,6 +165,7 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
+    
 }
 
 /* Class Selectors */
@@ -305,6 +306,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
+
 }
 
 .album {
@@ -313,10 +315,13 @@ footer {
     padding: 10px;
     margin: 10px;
     width: 30%;
+    padding-bottom: 50%;
+    
 }
 
 .album h2 {
     margin: 0;
+    color: white;
 }
 
 .album p {
@@ -325,7 +330,8 @@ footer {
 
 .album img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
+    
 }
 
 /* Media Queries */
