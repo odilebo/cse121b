@@ -46,7 +46,7 @@ const displayAlbums = (albums) => {
 /* async getAlbums Function using fetch() */
 
 const getAlbums = async () => {
-    const response = await fetch('https://byui-cse.github.io/cse121b-ww-course/resources/temples.json');
+    const response = await fetch('https://odilebo.github.io/cse121b/cse121b/music.json');
     if (!response.ok) {
         throw new Error('Failed to fetch album data');
     }
@@ -74,17 +74,17 @@ const filterAlbums = (albums) => {
     const filter = document.getElementById('genre').value.toLowerCase(); // Get the value of the HTML element with ID 'genre' and convert to lowercase
     
     switch (filter) {
-        case 'pop':
-            displayAlbums(albumList.filter(album => album.genre.toLowerCase() === 'pop'));
+        case 'alternative':
+            displayAlbums(albumList.filter(album => album.genre.toLowerCase() === 'alternative'));
             break;
         case 'rock':
             displayAlbums(albumList.filter(album => album.genre.toLowerCase() === 'rock'));
             break;
-        case 'hip hop':
-            displayAlbums(albumList.filter(album => album.genre.toLowerCase() === 'hip hop'));
+        case 'rap':
+            displayAlbums(albumList.filter(album => album.genre.toLowerCase() === 'rap'));
             break;
-        case 'r&b':
-            displayAlbums(albumList.filter(album => album.genre.toLowerCase() === 'r&b'));
+        case 'soul':
+            displayAlbums(albumList.filter(album => album.genre.toLowerCase() === 'soul'));
             break;
         case 'all':
         default:
