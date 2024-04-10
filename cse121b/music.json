@@ -3,60 +3,72 @@
       "title": "Kid A",
       "artist": "Radiohead",
       "year": "2000",
-      "genre": "Alternative"
+      "genre": "Alternative",
+      "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
     },
     {
       "title": "The Marshall Mathers LP",
       "artist": "Eminem",
       "year": "2000",
-      "genre": "Hip Hop"
+      "genre": "Hip Hop",
+      "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cedar-city-utah/400x225/Cedar-City-1978603.jpg"
     },
     {
       "title": "Yankee Hotel Foxtrot",
       "artist": "Wilco",
       "year": "2002",
-      "genre": "Alternative"
+      "genre": "Alternative",
+      "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
+
     },
     {
       "title": "Is This It",
       "artist": "The Strokes",
       "year": "2001",
-      "genre": "Indie Rock"
+      "genre": "Indie Rock",
+      "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
     },
     {
       "title": "Elephant",
       "artist": "The White Stripes",
       "year": "2003",
-      "genre": "Rock"
+      "genre": "Rock",
+      "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
     },
     {
       "title": "Back to Black",
       "artist": "Amy Winehouse",
       "year": "2006",
-      "genre": "Soul"
+      "genre": "Soul",
+      "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-city-center/400x250/provo-city-center-temple-1572517-wallpaper.jpg"
+
     },
     {
       "title": "American Idiot",
       "artist": "Green Day",
       "year": "2004",
-      "genre": "Punk Rock"
+      "genre": "Punk Rock",
+      "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-utah/400x250/provo-temple-lds-890642-wallpaper.jpg"
     },
     {
       "title": "Graduation",
       "artist": "Kanye West",
       "year": "2007",
-      "genre": "Hip Hop"
+      "genre": "Hip Hop",
+      "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/2018/400x250/slctemple5.jpg"
     },
     {
       "title": "Hot Fuss",
       "artist": "The Killers",
       "year": "2004",
-      "genre": "Indie Rock"
+      "genre": "Indie Rock",
+      "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/winter-quarters-nebraska/400x250/winter-quarters-nebraska-temple-detail-772766.jpg"
     },
     {
       "title": "In Rainbows",
       "artist": "Radiohead",
       "year": "2007",
-      "genre": "Alternative"
+      "genre": "Alternative",
+      "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
     }
   ]
