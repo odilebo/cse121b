@@ -1,0 +1,136 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;700&display=swap');
+
+/* Color Scheme */
+:root {
+    --primary-color: #800000; 
+    --secondary-color: #000000;
+}
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+}
+
+nav {
+    margin: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: hwb(0 100% 0%);
+}
+
+/* Main Styles */
+main {
+    max-width: 800px; 
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+main .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+main .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main .card p {
+    line-height: 1.6;
+    color: #333333; /* Dark text color */
+}
+
+main .card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+main .card ul li {
+    margin: 0.75rem 0;
+}
+
+main .card ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+main .card ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 1.5rem;
+    }
+
+    main .card {
+        gap: 1rem;
+    }
+
+    main .card img {
+        max-width: 100%;
+    }
+}
